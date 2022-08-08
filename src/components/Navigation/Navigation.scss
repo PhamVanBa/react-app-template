@@ -1,0 +1,18 @@
+@import '../../scss/variables.scss';
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    li {
+      a {
+        color: $primaryColor;
+        text-decoration: none;
+        &:hover {
+          color: darken($color: $primaryColor, $amount: 10);
+        }
+      }
+    }
+  }
+}

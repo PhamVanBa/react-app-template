@@ -1,0 +1,66 @@
+{
+  "name": "react-app-template",
+  "description": "Template for react app using create-react-app and some customizations.",
+  "version": "0.1.0",
+  "author": "Lam Pham <completejavascript.super@gmail.com>",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "customize-cra": "^0.9.1",
+    "hookrouter": "^1.2.3",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.12.0",
+    "react-intl": "^3.11.0",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.3.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "keywords": [
+    "react",
+    "react-js",
+    "customize-cra",
+    "react app template",
+    "sass",
+    "hookrouter",
+    "react intl",
+    "react redux",
+    "js-cookie",
+    "axios"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "first-release": "standard-version --first-release",
+    "prerelease": "standard-version"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8",
+    "standard-version": "^9.3.0"
+  }
+}
